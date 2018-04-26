@@ -1,0 +1,5 @@
+1. deleted the readme.md file 
+
+2. deleted the licence file 
+
+3. 
