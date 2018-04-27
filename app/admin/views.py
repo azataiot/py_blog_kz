@@ -248,9 +248,6 @@ def enable_comment(id):
                             page=request.args.get('page', 1, type=int)))
 
 
-# 单条评论的删除，这里就不使用表单或者Ajax了，这与博文的管理不同，但后面多条评论的删除会使用Ajax
-# 前面在admin页面删除单篇博文时使用表单而不是Ajax，其实使用Ajax效果会更好，当然这里只是尽可能
-# 使用不同的技术，因为以后在做自动化运维开发时总有用得上的地方
 @admin.route('/manage-comments/delete-comment/<int:id>')
 @login_required
 def delete_comment(id):
