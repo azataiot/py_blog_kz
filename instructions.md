@@ -17,11 +17,16 @@ You can either:
 
 ### Enter the blog folder of 1st blog :py_kz_blog
 ### Блог қалтасын енгізіңіз 
-python@ubuntu:~$ `ls` 
-python@ubuntu:~$ `cd py_kz_blog`
-python@ubuntu:~$`source venv/bin/activate`
-python@ubuntu:~$`python manage.py deploy product`
-python@ubuntu:~$`gunicorn manage:app`
+python@ubuntu:~$ `ls`   
+
+python@ubuntu:~$ `cd py_kz_blog`  
+
+python@ubuntu:~$`source venv/bin/activate`  
+
+python@ubuntu:~$`python manage.py deploy product`   
+
+python@ubuntu:~$`gunicorn manage:app`   
+
 
 #### Open browser: http://127.0.0.1:8000
 #### Браузерді ашыңыз: http://127.0.0.1:8000
@@ -30,8 +35,11 @@ python@ubuntu:~$`gunicorn manage:app`
 ### 2-ші блог - сол сияқты:
 after entered the second blog folder (not mblog ,another one ) 
 екінші блог қалтасынан кейін (mblog емес, екіншісі)
-python@ubuntu:~$`source venv3/bin/activate`
-python@ubuntu:~$`python manage.py runserver`
+
+python@ubuntu:~$`source venv3/bin/activate` 
+
+python@ubuntu:~$`python manage.py runserver` 
+
 
 #### Open browser: http://127.0.0.1:5000
 #### Браузерді ашыңыз: http://127.0.0.1:5000
